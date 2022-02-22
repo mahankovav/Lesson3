@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Game {
     public void play() {
         final Random random = new Random();
-        Scanner scanner = new Scanner(System.in);
+        final Scanner scanner = new Scanner(System.in);
         while (true) {
 
             System.out.print("Выберете камень: 1, ножницы: 2 или бумагу: 3. (Выход: 0)");
